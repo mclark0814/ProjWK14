@@ -7,7 +7,7 @@ def ec2_name_chars(num_chars): #definition of function that the value assigned t
     
 ec2_count = int(input("Enter the number of AWS EC2 instances ")) # Counter that will be incremented through each iteration
 
-depts = ["Accounting", "FinOps", "Marketing"] #List of autorized departments who may utilize this name generating script, also those are the recognized department names to be entered by the user
+depts = ["Accounting", "FinOps", "Marketing"] #List of authorized departments who may utilize this name generating script, also those are the recognized department names to be entered by the user
 
 count = 0 # Counter used to determine the number of requested random names enter by the user
 
